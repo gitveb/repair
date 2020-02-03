@@ -28,6 +28,10 @@ img
 
 .section
 	padding: 90px 0
+	&-title
+		font-size: 30px
+		+bold
+		text-align: center
 .input
 	border: 1.0px solid $border-input
 	padding: 20px 26px
@@ -36,3 +40,9 @@ img
 	&:hover
 		border: 1px solid $main-color
 		border-radius: 10px
+.arrows
+	&__left, &__right
+		&:hover
+			cursor: pointer
+
+		
